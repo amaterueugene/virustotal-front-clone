@@ -20,6 +20,12 @@ a {
     font-size: 13px;
 }
 
+h1 {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .canvas {
     width: 100%;
     height: 100%;
@@ -168,3 +174,52 @@ a {
     right: 20px;
 }
 
+.textbox {
+    width: 1265px;
+    margin: 30px 0px 0px 30px;
+}
+
+.community-title {
+    margin-bottom: 45px;
+}
+
+.additional-info {
+    line-height: 150%;
+    font-size: 14px;
+    color: #666666;
+}
+
+.path-img {
+    height: 87px;
+    width: 87px;
+    background-color: transparent;
+}
+
+.paths-box {
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+}
+
+.path-itembox p {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #333333;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 12px;
+    width: 145px;
+}
+
+.path-itembox {
+    padding: 5px 50px 20px 50px;
+    margin: 0px 7px;
+}
+
+.path-itembox:hover {
+    background-color: #dcdcdc60;
+}
+
+.first-pathbox {
+    margin-left: 30px;
+}
